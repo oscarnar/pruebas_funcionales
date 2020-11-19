@@ -54,7 +54,7 @@ module.exports = {
 $ npm run test
 ```
 
-<p align="center"><img width="70%" src="assets/runtest.png" /></p>
+<p align="center"><img width="50%" src="assets/runtest.png" /></p>
 
-<p align="center"><img width="70%" src="assets/ejecucion.png" /></p>
+<p align="center"><img width="100%" src="assets/ejecucion.png" /></p>
 
