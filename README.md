@@ -1,5 +1,20 @@
 # Jest + Selenium WebDriver
 
+## Diseño de casos de prueba
+
+| Accion                   | Pasos                       | Entrada |   Valor esperado   |
+|--------------------------|-----------------------------|---------|--------------------|
+|                          | Ingresar al sitio           |         |                    |
+| Calcular porcentaje      | Ingresar porcentaje valido  |   50    |                    |
+|                          | Ingresar un numero valido   |   18    |                    |
+|                          | Click sobre calcular        |         |        9           |
+|                          |                             |         |                    |
+|                          | Ingresar al sitio           |         |                    |
+| Ingresar un dato erroneo | Ingresar un numero valido   |    5    | 'Please provide    |
+|                          | Ingresar un numero invalido |    a    | two numeric values |
+|                          | Click sobre calcular        |         |   in any field'    |
+
+
 ## Instalacion
 
 Para la automatizacion usaremos [Node.js](https://nodejs.org/es/) y el gestor de paquetes de este [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
